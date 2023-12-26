@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "tcc-simi",
+    "slug": "tcc-simi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "792621f8-2631-4d0d-853a-55e8977d4d32"
+      }
+    },
+    "owner": "idsniel",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
